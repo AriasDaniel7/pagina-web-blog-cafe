@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página web de Blog de café">
+    <title>BlogDeCafé</title>
+
+    <!--Preload-->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" as="font"
+        crossorigin="crossorigin">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap">
+
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenedor barra">
+            <a class="logo" href="index.html">
+                <h1 class="logo__nombre no-margin">Blog<span class="logo__bold">DeCafé</span></h1>
+            </a>
+
+            <nav class="navegacion">
+                <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+            </nav>
+        </div>
+
+        <div class="contenido-header">
+            <h2 class="no-margin contenido-header__texto">Blog de café con consejos y cursos</h2>
+            <p class="no-margin contenido-header__parrafo">Aprende de los expertos con las mejores recetas y consejos
+            </p>
+        </div>
+    </header>
+
+    <main class="contenedor contacto">
+        <h3 class="contacto__titulo">Contacto</h3>
+
+        <div class="contacto__bg">
+
+        </div>
+
+        <form action="#" class="formulario">
+            <div class="campos">
+                <label for="" class="campos__label">Nombre:</label>
+                <input class="campos__input" type="text" placeholder="Tu nombre">
+                <label for="" class="campos__label">Correo:</label>
+                <input class="campos__input" type="email" placeholder="Tu E-mail">
+                <label for="" class="campos__label">Mensaje:</label>
+                <textarea class="campos__input campos__textarea" placeholder="Tu mensaje"></textarea>
+            </div>
+            <input class="enviar__btn boton boton--primario" type="submit" value="Enviar">
+        </form>
+    </main>
+
+    <footer class="footer footer--line">
+        <div class="contenedor">
+            <a class="logo" href="index.html">
+                <h1 class="logo__nombre no-margin">Blog<span class="logo__bold">DeCafé</span></h1>
+            </a>
+            <p class="no-margin footer__texto">
+                Todos los derechos reservados 2023: © Daniel Arias®.
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/modernizr.js"></script>
+</body>
+
+</html>
